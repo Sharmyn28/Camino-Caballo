@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	background: #edf4f0;
+}
+.black{
+  background-color: black;
+  color:white;
+}
+
+td{
+  width: 20px;
+  height: 20px;
+}
+
+#initial{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+#horse{
+	width: 20%;
+	float: right;
+	position: absolute;
+	background: #edf4f0;
+	border: silver 10px solid;
+}

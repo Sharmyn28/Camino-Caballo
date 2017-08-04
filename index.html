@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+       <h1 class="center-align">Knight Movements</h1>
+    </div>
+    
+    <!--BOTON INICIAL E INPUT-->
+    <div class="container">
+        <div class="row">
+            <div class="col s12" id="initial">
+            Ingrese tamaño:
+                <div class="input-field inline">
+                    <input id="lados" type="text" class="validate" size="4">
+                    <label for="lados" data-error="wrong" data-success="right"></label>
+                </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                        <i class="material-icons" id="ejecutar">view_module</i>
+                    </a>
+            </div>
+        </div>
+    </div>
+
+    <!--TABLA Y BOTONES EXTRAS-->
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                <div id="tablero"></div>
+            </div>
+            <div class="col s6">
+            &nbsp;&nbsp;&nbsp;
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="stepByStep">transfer_within_a_station</i>
+                </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn-floating btn-large waves-effect waves-light teal lighten-3">
+                    <i class="material-icons" id="nextSolution">skip_next</i>
+                </a>
+                <br><br>
+                &nbsp;&nbsp;&nbsp;
+                <img src="assets/img/caballo.png" id="horse">
+            </div>
+        </div> 
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
